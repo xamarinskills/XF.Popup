@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyPopupDemo"
+             x:Class="MyPopupDemo.MainPage"
+             BackgroundColor="#007ACC">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Pop Up Demo" Font="Bold,24"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                    Text="Popup"
+                    Font="Bold,20"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="Aqua"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
